@@ -1,6 +1,6 @@
 name: mlops-2026-2
 services:
-  mlops-container:
+  intent-clf:
     container_name: intent-clf 
     build:
       context: .
