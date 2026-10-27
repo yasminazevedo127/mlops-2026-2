@@ -1,7 +1,7 @@
 name: mlops-2026-2
 services:
   mlops-container:
-    container_name: mlops-container
+    container_name: intent-clf 
     build:
       context: .
       dockerfile: Dockerfile
